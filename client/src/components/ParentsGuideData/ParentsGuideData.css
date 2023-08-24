@@ -1,0 +1,32 @@
+.parents-guide-data {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: scroll;
+
+  gap: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.category {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.category span {
+  cursor: pointer;
+}
+.category p {
+  background-color: rgba(119, 64, 215, 0.081);
+  line-height: 2rem;
+  max-height: 100px;
+  overflow-y: scroll;
+  padding: 3%;
+}
+.category p::-webkit-scrollbar,
+.parents-guide-data::-webkit-scrollbar {
+  display: none;
+}
